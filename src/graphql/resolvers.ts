@@ -5,10 +5,10 @@ import type { Resolvers } from "../generated/graphql.js";
 
 const resolvers: Resolvers = {
   Query: {
-    user: UserQueries.user,
+    ...UserQueries,
   },
   Mutation: {
-    createUser: UserMutations.createUser,
+    ...UserMutations,
   },
   User,
 };
