@@ -13,7 +13,7 @@ import logging from "./lib/logging/logging.js";
 import type { onRequestHookHandler } from "fastify";
 import type { DecodedIdToken } from "firebase-admin/auth";
 import type { BreiseraContext } from "./graphql/context.js";
-import serviceAccount from "../service-account.json" assert { type: 'json' };
+import { serviceAccount } from "../service-account.js"
 
 
 declare module "fastify" {
