@@ -12,7 +12,7 @@ import { getAuth } from "firebase-admin/auth";
 import logging from "./lib/logging/logging.js";
 import type { onRequestHookHandler } from "fastify";
 import type { DecodedIdToken } from "firebase-admin/auth";
-import type { FloodAlertContext } from "./graphql/context.js";
+import type { BreiseraContext } from "./graphql/context.js";
 
 declare module "fastify" {
   interface FastifyRequest {
@@ -36,12 +36,12 @@ const auth = getAuth();
 const server = Fastify();
 
 // Initialize GraphQL server
-const context: FloodAlertContext = {
+const context: BreiseraContext = {
   db: prisma,
 };
 // Leaving here in case we need to add the decodedIdToken to the context in the
 // future
-// const partialFloodAlertContext: Partial<FloodAlertContext> = {
+// const partialBreiseraContext: Partial<BreiseraContext> = {
 //   db: prisma,
 // };
 const schema = makeExecutableSchema({ typeDefs, resolvers });
@@ -103,7 +103,7 @@ server
         // Leaving here in case we need to add the decodedIdToken to the context
         // in the future
         // context: (request) => ({
-        //   ...partialFloodAlertContext,
+        //   ...partialBreiseraContext,
         //   decodedIdToken: request.raw.decodedIdToken,
         // }),
       }),
