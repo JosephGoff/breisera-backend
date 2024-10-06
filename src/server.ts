@@ -60,6 +60,10 @@ if (process.env.NODE_ENV === "development") {
   });
 }
 
+server.get('/', async (request, reply) => {
+  return { message: 'Welcome to the briesera server!' };
+});
+
 server
   // Define a custom onRequest hook to verify JWT
   .decorate("verifyJWT", (request, reply, done) => {
