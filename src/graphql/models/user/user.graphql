@@ -1,7 +1,6 @@
 type Query {
   "Get a user by their ID"
   user(id: ID!): User
-  userStatistic(id: ID!): UserStatistic
 }
 
 type Mutation {
@@ -42,10 +41,6 @@ type User {
   email: String
   "The user's avatar URL"
   photoUrl: String
-  "The user's bookmarked sites"
-  bookmarks: [Bookmark!]!
-  "The user's alerts"
-  alerts: [Alert!]!
   "The user's current payment tier"
   premium: Boolean!
 }
