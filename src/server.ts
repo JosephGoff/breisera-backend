@@ -7,12 +7,14 @@ import { makeExecutableSchema } from "@graphql-tools/schema";
 import { PrismaClient } from "@prisma/client";
 import typeDefs from "./graphql/typeDefs.js";
 import resolvers from "./graphql/resolvers.js";
-import { initializeApp, applicationDefault } from "firebase-admin/app";
+import { initializeApp, applicationDefault, cert } from "firebase-admin/app";
 import { getAuth } from "firebase-admin/auth";
 import logging from "./lib/logging/logging.js";
 import type { onRequestHookHandler } from "fastify";
 import type { DecodedIdToken } from "firebase-admin/auth";
 import type { BreiseraContext } from "./graphql/context.js";
+import serviceAccount from "../service-account.json" assert { type: 'json' };
+
 
 declare module "fastify" {
   interface FastifyRequest {
@@ -29,7 +31,7 @@ const logger = logging.getLogger();
 const prisma = new PrismaClient();
 
 // Initialize Firebase Admin SDK
-initializeApp({ credential: applicationDefault() });
+initializeApp({ credential: cert(serviceAccount as any), });
 const auth = getAuth();
 
 // Initialize Fastify server
@@ -100,9 +102,10 @@ server
       createHandler({
         schema,
         context: (request) => {
-          console.log("Received request:", request.body); 
+          console.log("Request:", request.body); 
           return context;
         }
+
         // Leaving here in case we need to add the decodedIdToken to the context
         // in the future
         // context: (request) => ({

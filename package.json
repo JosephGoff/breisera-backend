@@ -34,6 +34,8 @@
     "graphql-http": "^1.22.1",
     "graphql-scalars": "^1.23.0",
     "graphql-tag": "^2.12.6",
+    "install": "^0.13.0",
+    "npm": "^10.9.0",
     "on-exit-leak-free": "^2.1.2",
     "path": "^0.12.7",
     "pino": "^9.4.0",

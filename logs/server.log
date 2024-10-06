@@ -13,3 +13,21 @@
 {"level":30,"time":1728177992708,"pid":21223,"hostname":"Josephs-Laptop.local","msg":"Running a GraphiQL server at http://localhost:6000/graphiql"}
 {"level":30,"time":1728178072088,"pid":21261,"hostname":"Josephs-Laptop.local","msg":"Running a GraphQL API server at http://localhost:6000/graphql"}
 {"level":30,"time":1728178072088,"pid":21261,"hostname":"Josephs-Laptop.local","msg":"Running a GraphiQL server at http://localhost:6000/graphiql"}
+{"level":30,"time":1728241099880,"pid":72742,"hostname":"Josephs-Laptop.local","msg":"Running a GraphQL API server at http://localhost:6000/graphql"}
+{"level":30,"time":1728241099880,"pid":72742,"hostname":"Josephs-Laptop.local","msg":"Running a GraphiQL server at http://localhost:6000/graphiql"}
+{"level":30,"time":1728242267424,"pid":73249,"hostname":"Josephs-Laptop.local","msg":"Running a GraphQL API server at http://localhost:6000/graphql"}
+{"level":30,"time":1728242267424,"pid":73249,"hostname":"Josephs-Laptop.local","msg":"Running a GraphiQL server at http://localhost:6000/graphiql"}
+{"level":30,"time":1728242630114,"pid":73477,"hostname":"Josephs-Laptop.local","msg":"Running a GraphQL API server at http://localhost:6000/graphql"}
+{"level":30,"time":1728242630114,"pid":73477,"hostname":"Josephs-Laptop.local","msg":"Running a GraphiQL server at http://localhost:6000/graphiql"}
+{"level":30,"time":1728242720316,"pid":73598,"hostname":"Josephs-Laptop.local","msg":"Running a GraphQL API server at http://localhost:8080/graphql"}
+{"level":30,"time":1728242720317,"pid":73598,"hostname":"Josephs-Laptop.local","msg":"Running a GraphiQL server at http://localhost:8080/graphiql"}
+{"level":30,"time":1728242900346,"pid":73751,"hostname":"Josephs-Laptop.local","msg":"Running a GraphQL API server at http://localhost:8080/graphql"}
+{"level":30,"time":1728242900346,"pid":73751,"hostname":"Josephs-Laptop.local","msg":"Running a GraphiQL server at http://localhost:8080/graphiql"}
+{"level":30,"time":1728243320541,"pid":73959,"hostname":"Josephs-Laptop.local","msg":"Running a GraphQL API server at http://localhost:8080/graphql"}
+{"level":30,"time":1728243320541,"pid":73959,"hostname":"Josephs-Laptop.local","msg":"Running a GraphiQL server at http://localhost:8080/graphiql"}
+{"level":30,"time":1728243684535,"pid":74221,"hostname":"Josephs-Laptop.local","msg":"Running a GraphQL API server at http://localhost:8080/graphql"}
+{"level":30,"time":1728243684535,"pid":74221,"hostname":"Josephs-Laptop.local","msg":"Running a GraphiQL server at http://localhost:8080/graphiql"}
+{"level":30,"time":1728244788441,"pid":76254,"hostname":"Josephs-Laptop.local","msg":"Running a GraphQL API server at http://localhost:8080/graphql"}
+{"level":30,"time":1728244788441,"pid":76254,"hostname":"Josephs-Laptop.local","msg":"Running a GraphiQL server at http://localhost:8080/graphiql"}
+{"level":30,"time":1728245541661,"pid":77571,"hostname":"Josephs-Laptop.local","msg":"Running a GraphQL API server at http://localhost:8080/graphql"}
+{"level":30,"time":1728245541661,"pid":77571,"hostname":"Josephs-Laptop.local","msg":"Running a GraphiQL server at http://localhost:8080/graphiql"}
