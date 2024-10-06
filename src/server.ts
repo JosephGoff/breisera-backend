@@ -99,7 +99,10 @@ server
       },
       createHandler({
         schema,
-        context,
+        context: (request) => {
+          console.log("Received request:", request.body); 
+          return context;
+        }
         // Leaving here in case we need to add the decodedIdToken to the context
         // in the future
         // context: (request) => ({
