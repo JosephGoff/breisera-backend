@@ -47,3 +47,5 @@
 {"level":30,"time":1728246822315,"pid":81531,"hostname":"Josephs-Laptop.local","msg":"Running a GraphiQL server at http://localhost:8080/graphiql"}
 {"level":30,"time":1728246830524,"pid":81573,"hostname":"Josephs-Laptop.local","msg":"Running a GraphQL API server at http://localhost:8080/graphql"}
 {"level":30,"time":1728246830524,"pid":81573,"hostname":"Josephs-Laptop.local","msg":"Running a GraphiQL server at http://localhost:8080/graphiql"}
+{"level":30,"time":1728249306392,"pid":85276,"hostname":"Josephs-Laptop.local","msg":"Running a GraphQL API server at http://localhost:8080/graphql"}
+{"level":30,"time":1728249306392,"pid":85276,"hostname":"Josephs-Laptop.local","msg":"Running a GraphiQL server at http://localhost:8080/graphiql"}

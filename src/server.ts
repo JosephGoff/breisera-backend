@@ -89,6 +89,7 @@ server
           logger.info(`Token: ${token}`);
           logger.error(error);
           reply.code(401).send({ error: "Unauthorized" });
+          logger.info(request.headers);
         });
     }
   })
@@ -103,6 +104,7 @@ server
         schema,
         context: (request) => {
           console.log("Request:", request.body); 
+          logger.info("Request:", request.body); 
           return context;
         }
 
