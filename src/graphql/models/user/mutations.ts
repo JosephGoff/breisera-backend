@@ -79,7 +79,6 @@ const logger = logging.getLogger();
 //   },
 // };
 
-// export default Mutation;
 
 
 
@@ -129,3 +128,5 @@ const Mutation: MutationResolvers = {
     }
   },
 };
+
+export default Mutation;
