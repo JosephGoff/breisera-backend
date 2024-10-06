@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "serve": "NODE_ENV=production node dist/src/index.js",
     "codegen": "graphql-codegen --config codegen.ts",
-    "build": "node --loader ts-node/esm scripts/prebuild.ts && tsc",
+    "build": "tsc",
     "clean": "rm -rf dist"
   },
   "prisma": {
